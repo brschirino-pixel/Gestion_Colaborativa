@@ -1,0 +1,6 @@
+
+RESULTADOS DEL ANALISIS CLIMATICO
+
+Temperatura promedio: -0.01
+Temperatura maxima: 1.1755
+Temperatura minima: -0.5975
