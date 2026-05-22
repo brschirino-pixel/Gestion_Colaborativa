@@ -102,3 +102,9 @@ python analisis_clima.py
 ## Consideraciones Técnicas
 
 El proyecto fue desarrollado utilizando rutas relativas para garantizar su reproducibilidad y organización del código.
+
+---
+
+## Control de Versiones
+
+El proyecto fue gestionado mediante Git y GitHub utilizando commits descriptivos y organización por ramas.
