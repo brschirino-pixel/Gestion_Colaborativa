@@ -1,9 +1,9 @@
 import csv
 import matplotlib.pyplot as plt
 
-ruta_csv = "../datos/annual.csv"
-ruta_resultado = "../resultados/resumen_climatico.txt"
-ruta_grafico = "../resultados/grafico_temperatura.png"
+ruta_csv = "datos/annual.csv"
+ruta_resultado = "resultados/resumen_climatico.txt"
+ruta_grafico = "resultados/grafico_temperatura.png"
 
 años = []
 temperaturas = []
