@@ -27,7 +27,7 @@ A partir del procesamiento del dataset seleccionado se generan indicadores estad
 - Calcular temperatura promedio.
 - Obtener temperatura máxima y mínima.
 - Generar un gráfico de evolución de temperatura.
-- Exportar automáticamente los resultados obtenidos.
+- Exportar automáticamente un resumen climático y un gráfico de evolución de temperatura.
 
 ---
 
@@ -35,7 +35,12 @@ A partir del procesamiento del dataset seleccionado se generan indicadores estad
 
 **Archivo:** `annual.csv`
 
-El dataset contiene registros históricos de temperatura organizados por año y utilizados para realizar el análisis estadístico.
+El dataset utilizado corresponde a registros históricos de temperatura global provenientes del análisis climático GISTEMP.
+
+Contiene mediciones organizadas por año y permite analizar tendencias climáticas a lo largo del tiempo mediante indicadores estadísticos y visualización gráfica.
+
+Fuente:
+https://datahub.io/core/global-temp
 
 ---
 
@@ -90,13 +95,16 @@ Ubicación:
 
 1. Clonar el repositorio.
 2. Abrir el proyecto en Visual Studio Code.
-3. Acceder a la carpeta `scripts`.
+3. Instalar dependencias:
+
+```bash
+pip install matplotlib
+```
+
 4. Ejecutar:
 
 ```bash
-python analisis_clima.py
-```
-
+python scripts/analisis_clima.py
 ---
 
 ## Consideraciones Técnicas
@@ -107,4 +115,4 @@ El proyecto fue desarrollado utilizando rutas relativas para garantizar su repro
 
 ## Control de Versiones
 
-El proyecto fue gestionado mediante Git y GitHub utilizando commits descriptivos y organización por ramas.
+El proyecto fue gestionado mediante Git, GitHub y Jira utilizando commits descriptivos para registrar la evolución del desarrollo y organización de tareas mediante tablero Kanban.
