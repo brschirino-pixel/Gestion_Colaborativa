@@ -44,6 +44,14 @@ https://datahub.io/core/global-temp
 
 ---
 
+## Alcance del análisis
+
+El dataset seleccionado contiene únicamente registros históricos de temperatura global.
+
+Por este motivo el análisis realizado incluye indicadores de temperatura y no contempla precipitaciones.
+
+---
+
 ## Estructura del Proyecto
 
 ```text
