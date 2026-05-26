@@ -105,6 +105,8 @@ pip install matplotlib
 
 ```bash
 python scripts/analisis_clima.py
+
+
 ---
 
 ## Consideraciones Técnicas
